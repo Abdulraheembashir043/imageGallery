@@ -49,8 +49,22 @@ button {
   cursor: pointer;
 }
 
-/* @media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
   body {
-    width: 300px;
+    width: 100%;
   }
-} */
+
+  .full-img img {
+    /* border: 1px solid red; */
+    width: 100%;
+  }
+
+  .full-img {
+    border: 1px solid red;
+    width: 100%;
+  }
+
+  .overlay {
+    width: 100%;
+  }
+}
